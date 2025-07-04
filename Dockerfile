@@ -1,6 +1,6 @@
 FROM nginx:latest
 
-# Configuration
+#--- Configuration-----
 COPY conf /etc/nginx
 # Content
 COPY content /usr/share/nginx/html
