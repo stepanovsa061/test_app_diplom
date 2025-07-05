@@ -5,10 +5,10 @@ name: any_commit_app
 on:
   push:
     branches:
-      - '*'
+      - main
 
 env:
-  IMAGE_TAG: stepserg/nginx-diplom
+  IMAGE_TAG: stepserg/nginx-app
 
 jobs:
   build-and-push:
