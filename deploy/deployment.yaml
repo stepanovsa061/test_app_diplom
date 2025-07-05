@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: stepserg/nginx-diplom:latest
+        image: stepserg/nginx-diplom
       restartPolicy: Always
 
 ---
