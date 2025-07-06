@@ -24,6 +24,6 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: .
-          file: stepanovsa061/test_app_diplom/Dockerfile
+          file: ./test_app_diplom/Dockerfile
           push: true
           tags: ${{ env.IMAGE_TAG }}:any_commit
